@@ -12,5 +12,8 @@ namespace FullStackWeb.Models
        public IEnumerable<Product> GetAllProducts();
         Product GetProduct(int id);
         void UpdateProduct(Product product);
+        public Product AssignCategory();
+        public IEnumerable<Category> GetCategories();
+        public void InsertProduct(Product productToInsert);
     }
 }
